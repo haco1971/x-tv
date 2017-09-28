@@ -362,10 +362,10 @@ echo -e "${jeshile} └───────────────────
 echo " "
 #mkdir /home/admin/web/xtream.md/public_html
 #cd /home/admin/web/xtream.md/public_html #DESTINACIONI KRYESOR ADMIN - TEMPLATES ETC
-cd /home/admin/web/xtream.md/public_html && wget http://downloads.sourceforge.net/project/iptv-md/xtream/Xtream_Codes_v1.0.60_Nulled.zip && unzip Xtream_Codes_v1.0.60_Nulled.zip && cp /home/admin/web/xtream.md/public_html/downloads/iptv_panel_pro.zip /tmp && chmod a+x /tmp/iptv_panel_pro.zip && cp /home/admin/web/xtream.md/public_html/downloads/install_iptv_pro.php /root/ && cd /root && chmod a+x /root/install_iptv_pro.php && php install_iptv_pro.php
-chmod 775 /home/admin/web/xtream.md/public_html/Xtream_Codes_v1.0.60_Nulled.zip
-rm /home/admin/web/xtream.md/public_html/Xtream_Codes_v1.0.60_Nulled.zip
-cp /home/admin/web/xtream.md/public_html/downloads/iptv_panel_pro.zip /tmp
+cd /var/www/html && wget http://downloads.sourceforge.net/project/iptv-md/xtream/Xtream_Codes_v1.0.60_Nulled.zip && unzip Xtream_Codes_v1.0.60_Nulled.zip && cp /var/www/html/downloads/iptv_panel_pro.zip /tmp && chmod a+x /tmp/iptv_panel_pro.zip && cp /var/www/html/downloads/install_iptv_pro.php /root/ && cd /root && chmod a+x /root/install_iptv_pro.php && php install_iptv_pro.php
+chmod 775 /var/www/html/Xtream_Codes_v1.0.60_Nulled.zip
+rm /var/www/html/Xtream_Codes_v1.0.60_Nulled.zip
+cp /var/www/html/downloads/iptv_panel_pro.zip /tmp
 chmod a+x /tmp/iptv_panel_pro.zip
 #cp /home/admin/web/xtream.md/public_html/downloads/install_iptv_pro.php /root/ #FSHIHET AUTOMATIKISHT MBAS INSTALIMIT
 #cd /root
@@ -379,11 +379,11 @@ echo -e "${jeshile} └───────────────────
 echo " "
 cp /etc/init.d/xtreamcodes_pro_panel /etc/init.d/xtreamcodes_pro_panel_backup_by_TRC4
 echo -e "${jeshile} [+] /etc/init.d/xtreamcodes_pro_panel Backup as xtreamcodes_pro_panel_backup_by_TRC4 \e[0m"
-cp /home/admin/web/xtream.md/public_html/crack/xtreamcodes_pro_panel /etc/init.d/xtreamcodes_pro_panel
+cp /var/www/html/crack/xtreamcodes_pro_panel /etc/init.d/xtreamcodes_pro_panel
 echo -e "${jeshile} [+] New xtreamcodes_pro_panel File Coppied to /etc/init.d/xtreamcodes_pro \e[0m"
 cp /etc/rc.local /etc/rc.local_backup_by_TRC4
 echo -e "${jeshile} [+] /etc/rc.local backuped as rc.local_backup_by_TRC4 \e[0m"
-cp /home/admin/web/xtream.md/public_html/crack/rc.local /etc/rc.local
+cp /var/www/html/crack/rc.local /etc/rc.local
 echo -e "${jeshile} [+] New rc.local File Coppied to /etc/rc.local \e[0m"
 chmod +x /etc/rc.local
 echo -e "${jeshile} [+] chmod +x rc.local \e[0m"
